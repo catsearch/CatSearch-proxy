@@ -1,0 +1,27 @@
+{
+  "name": "catsearch-proxy",
+  "version": "1.0.0",
+  "description": "Proxy Server for CatSearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catsearch/CatSearch-proxy.git"
+  },
+  "author": "Cooper Barth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catsearch/CatSearch-proxy/issues"
+  },
+  "homepage": "https://github.com/catsearch/CatSearch-proxy#readme",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1",
+    "node": "^12.8.0",
+    "url": "^0.11.0"
+  }
+}
